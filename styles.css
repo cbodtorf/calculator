@@ -1,0 +1,46 @@
+body {
+  background-color: aliceblue;
+}
+.calc {
+  width: 150px;
+  margin: 10px auto;
+  /*text-align: center;*/
+}
+.top-line {
+  width: 79%;
+  margin: 0;
+}
+.view-finder {
+  background-color: lightgray;
+  width: 82px;
+  text-align: right;
+  box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.2);
+  padding: 1px;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom;
+  height: 21px;
+}
+.view-finder span {
+  color: black;
+  padding: 2px;
+}
+div.numberButtons {
+  width: 56%;
+  display: inline-block;
+}
+div.operators {
+  display: inline-block;
+  width: 30px;
+}
+
+input, button {
+  width: 25px;
+  text-align: center;
+  margin-top: 5px;
+  /*background-color: #64B255;*/
+}
+#clear {
+  display: inline-block;
+  width: 25px;
+}
